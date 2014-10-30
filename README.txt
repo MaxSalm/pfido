@@ -14,7 +14,7 @@ Reference
 Genome Res. 2012 Jun;22(6):1144-53. doi: 10.1101/gr.126037.111. Epub 2012 Mar 7.
 The origin, global distribution, and functional impact of the human 8p23 inversion polymorphism.
 Salm MP, Horswell SD, Hutchison CE, Speedy HE, Yang X, Liang L, Schadt EE, Cookson WO, Wierzbicki AS, Naoumova RP, Shoulders CC.
-
+http://www.ncbi.nlm.nih.gov/pubmed/22399572 
 
 Contents
 ========
