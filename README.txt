@@ -57,7 +57,7 @@ Erich Neuwirth (2007). RColorBrewer: ColorBrewer palettes. R package version 1.0
 	5) Follow GUI instructions
 	6) Results are found in the folder "/PFIDO_gui/output"
 
-Either download chr8 HapMap genotypes from ftp://ftp.ncbi.nlm.nih.gov/hapmap/genotypes/latest/forward/non-redundant/and put in the "tmp" folder and unzip, or the routine will connect and download it each time its run.
+Either download chr8 HapMap genotypes from ftp://ftp.ncbi.nlm.nih.gov/hapmap/genotypes/latest/forward/non-redundant/ and put in the "tmp" folder and unzip, or the routine will connect and download it each time its run.
 
 To check the package runs on your computer, please try to run the example HapMap-derived files (TSI.ped/TSI.map) in "/PFIDO_gui/input"
 
