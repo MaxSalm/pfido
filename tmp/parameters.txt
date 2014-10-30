@@ -1,5 +1,5 @@
-PED=C:/Documents and Settings/msalm/Desktop/PFIDO_gui/input/TSI.ped
-MAP=C:/Documents and Settings/msalm/Desktop/PFIDO_gui/input/TSI.map
+PED=C:/Users/u6025151/Documents/CRUK_BABS/PFIDO_gui/input/TSI.ped
+MAP=C:/Users/u6025151/Documents/CRUK_BABS/PFIDO_gui/input/TSI.map
 REFERENCE=CEU
 HWE=0.001
 MAF=0.01

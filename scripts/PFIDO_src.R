@@ -11,8 +11,6 @@ temp<-require(snpMatrix)
        source("http://bioconductor.org/biocLite.R")
        biocLite("snpMatrix")
       }
-temp<-require(mclust)
-      if(!(temp)){install.packages("mclust", dependencies=TRUE, repos="http://cran.r-project.org")}
 temp<-require(clValid)
       if(!(temp)){install.packages("clValid", dependencies=TRUE, repos="http://cran.r-project.org")}
 temp<-require(extremevalues)
@@ -21,12 +19,14 @@ temp<-require(moments)
       if(!(temp)){install.packages("moments", dependencies=TRUE, repos="http://cran.r-project.org")}
 temp<-require(ade4)
       if(!(temp)){install.packages("ade4", dependencies=TRUE, repos="http://cran.r-project.org")}
+temp<-require(mclust)
+      if(!(temp)){install.packages("mclust", dependencies=TRUE, repos="http://cran.r-project.org")}
 
 ### Check package versions
 ver<-Biobase::package.version("snpMatrix")
-if(ver != "1.14.1"){warning("PFIDO was tested with snpMatrix v.1.8.0\n")}
+if(ver != "1.8.0"){warning("PFIDO was tested with snpMatrix v.1.8.0\n")}
 ver<-Biobase::package.version("mclust")
-if(ver != "3.4.8"){warning("PFIDO was tested with mclust v.3.4.6\n")}
+if(ver != "3.4.8"){warning("PFIDO was tested with mclust v.3.4.8\n")}
 if(ver == "3.4.1"){warning("Some windows binaries of this mclust version (v.3.4.1) are not stable. Please download an alternative\n")}
 ver<-Biobase::package.version("clValid")
 if(ver != "0.6-1"){warning("PFIDO was tested with clValid v.0.5-7\n")}

@@ -1,0 +1,36 @@
+Thu Oct 30 13:24:28 2014
+Parameters selected:
+PED=C:/Users/u6025151/Documents/CRUK_BABS/PFIDO_gui/input/TSI.ped
+MAP=C:/Users/u6025151/Documents/CRUK_BABS/PFIDO_gui/input/TSI.map
+REFERENCE=CEU
+HWE=0.001
+MAF=0.01
+call.rate=0.9
+mind=0.9
+DIM=4
+THRESHOLD=0.05
+plot=Y
+plot.name=mds_plot.pdf
+out.nom=output.txt
+restrict=N
+snp.ids=NA
+MODEL=E,V
+OUTLIER=Y
+VALIDATE=Y
+override.BIC=Y
+
+PFIDO stage
+-----------
+After filtering:
+At geno= 0.9 -SNPs removed: 0 or 0%
+At mind= 0.9 -Samples removed: 4 or 2.46913580246914%
+2898 SNPs in analysis
+158  samples in analysis
+MDS analysis complete
+No outliers detected
+Same mode chosen whether variance set to E or V
+Cluster validation metrics written to output folder
+3  out of 3 validation metrics concur with BIC
+Annotated MDS plot saved to output folder
+...Finished
+Thu Oct 30 13:25:01 2014

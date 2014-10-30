@@ -1,11 +1,13 @@
 PFIDO  (Phase-Free Inversion Detection Operator)
 
 Version: 1
-Freeware 
 
 Author:   Max Salm
-Email:    max.salm05@imperial.ac.uk, maxsalm3@gmail.com  
+Email:    maxsalm3@gmail.com  
 
+## SOFTWARE COPYRIGHT NOTICE AGREEMENT
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). 
+This software is supplied as is without any warranty or guaranteed support whatsoever. The author can not be responsible for its use, misuse, or functionality.
 
 Reference
 =========
@@ -23,7 +25,7 @@ Contents
 
 1. System requirements
 ======================
-PFIDO requires R Version 2.9.2 or higher which is available at http://cran.r-project.org/
+PFIDO requires R Version 2.10.0 which is available at http://cran.r-project.org/
 The following R packages are also required:
 
 a) snpMatrix	
@@ -46,19 +48,14 @@ f) RColorBrewer
 Erich Neuwirth (2007). RColorBrewer: ColorBrewer palettes. R package version 1.0-2.
 
 
-These will be downloaded and installed upon first use of PFIDO, apart from mclust which has to be downladed manually from:
-
-http://cran.r-project.org/web/packages/mclust/index.html 
-
-
-
 2. Instructions
 ===========
 	1) Open and R session
-	2) Change Directory to the PFIDO_gui directory (either by selecting File>Change dir.., or typing setwd("<full path>/PFIDO_gui"))
-	3) Load PFIDO, by typing source("scripts/PFIDO_gui.R")
-	4) Follow GUI instructions
-	5) Results are found in the folder "/PFIDO_gui/output"
+	2) Change Directory to the PFIDO_gui directory (either by selecting File>Change dir.., or typing: setwd("<full path>/PFIDO_gui"))
+	3) If the package dependencies have not been installed, type: source("Install_PFIDO.r")
+	4) Load PFIDO, by typing: source("scripts/PFIDO_gui.R")
+	5) Follow GUI instructions
+	6) Results are found in the folder "/PFIDO_gui/output"
 
 Either download chr8 HapMap genotypes from ftp://ftp.ncbi.nlm.nih.gov/hapmap/genotypes/latest/forward/non-redundant/and put in the "tmp" folder and unzip, or the routine will connect and download it each time its run.
 
